@@ -32,14 +32,6 @@
     text-align: right; /* Align the navigation bar to the right */
 }
 
-
-
-
-.nav-bar li {
-    display: inline;
-    margin-right: 10px;
-    
-}
 .footer {
     background-color: #df5858;
     padding: 10px;
@@ -50,6 +42,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .column {

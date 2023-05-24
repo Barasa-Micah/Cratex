@@ -1,0 +1,90 @@
+.nav-bar {
+    background-color: rgb(181, 234, 169);
+    padding: 10px;
+    text-align: right;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none; /* Remove the underline */
+    color: black; /* Set the link color */
+    transition: color 0.3s; /* Add a transition effect for smooth color change */
+
+}
+
+.nav-bar a:hover {
+    color: red; /* Set the highlighted link color */
+}
+
+.nav-bar {
+    background-color: rgb(181, 234, 169);
+    padding: 10px;
+    text-align: right; /* Align the navigation bar to the right */
+}
+
+
+
+
+.nav-bar li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+.footer {
+    background-color: #df5858;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column3 {
+    float: left;
+    margin-left: 470px;
+}
+
+.imag {
+    width: 300px;
+}
+
+.footer-column {
+    flex-basis: 33.33%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}

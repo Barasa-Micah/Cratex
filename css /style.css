@@ -1,4 +1,4 @@
-.nav-bar {
+ .nav-bar {
     background-color: rgb(181, 234, 169);
     padding: 10px;
     text-align: right;
@@ -81,4 +81,4 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-}
+}  *

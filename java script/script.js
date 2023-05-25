@@ -17,3 +17,8 @@ window.addEventListener('load', function() {
     }, 2000);
 });
     
+window.addEventListener('load', function() {
+       setTimeout(function() {
+        document.body.classList.remove('animate-background');
+    }, 2000);
+});

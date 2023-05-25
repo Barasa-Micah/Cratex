@@ -102,3 +102,19 @@ button:hover {
     float: none;
     margin-top: 20px;
 }
+body {
+    transition: background-color 1s;
+    animation: background-animation 3s infinite;
+}
+
+@keyframes background-animation {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: navy;
+    }
+    100% {
+        background-color: grey;
+    }
+}

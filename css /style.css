@@ -1,4 +1,78 @@
+
 .svc{
+    background-color: aqua;
     display: flex;
-    align-items: center;
+}
+.svc form{
+    padding-top: 9px;
+}
+
+.svc ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+
+.svc ul li {
+    list-style: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 18px;
+}
+span{
+    color:white;
+}
+.gro{
+    display: flex;
+    background-color: blue;
+    text-align: center;
+}
+
+
+.gro1{
+    padding: 80px;
+}
+.gro img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.gro2{
+    display:flex;
+    background-color:lightgreen;
+    text-align: center;
+}
+.gro21 img{
+width:100px;
+height:80px;
+}
+.gro21{
+    padding: 80px;
+}
+
+
+.gro1{
+    padding: 80px;
+}
+.gro img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.gro3{
+    display:flex;
+    background-color:palevioletred;
+    text-align: center;
+}
+.gro3 img{
+width:100px;
+height:80px;
+}
+.gro31{
+    padding: 80px;
 }

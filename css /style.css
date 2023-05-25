@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-self: center;
+    color: orangered;
   }
   
   .svc ul li {
@@ -20,10 +21,12 @@
     font-size: 18px;
     padding: 80px;
   }
-  .svd ul li a{
-    color: azure;
+/*
+  ul li a{
+    color: blue;
+    text-decoration: none;
   }
-
+*/
 
 
 
@@ -92,8 +95,6 @@
     }
   }
   
-
-
   .gro1{
     padding: 80px;
 }

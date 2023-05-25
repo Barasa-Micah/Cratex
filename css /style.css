@@ -112,9 +112,9 @@ body {
         background-color: white;
     }
     50% {
-        background-color: navy;
+        background-color: rgb(124, 254, 224);
     }
     100% {
-        background-color: grey;
+        background-color: rgb(225, 128, 128);
     }
 }

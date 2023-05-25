@@ -12,12 +12,13 @@ body {
   h1 {
     text-align: center;
     color: #f8f0f0;
-    font-size: 50px;
+    font-size: 45px;
   }
   
   p {
-    margin-top: 20px;
+    margin-top: 0px;
     color: #faf7f7;
+    font-size: 30px;
   }
   
 
@@ -25,10 +26,11 @@ li{
     list-style: none;
     padding: 5px;
     color: white;
+    font-size: 30px;
 }
 
 .images{
-    margin-left: 15%;
+    margin-left: 14%;
 }
 @media(max-width: 768px){
     .images{

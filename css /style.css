@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(11, 16, 61);
+    
+}
+.list{
+    list-style: none;
+    float: right;
+    display: flex;
+    gap: 20px;
+}
+.a-menu{
+    text-decoration: none;
+    color: rgb(25, 49, 156);
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-right: 100px; 
+}
+.a-menu:hover{
+    color: darkgoldenrod                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+    transform:scale(1.1)
+}
+.btn{
+   border-radius: 70px; 
+   background-color: orange;
+}
+
+.cratex{
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+

@@ -1,16 +1,16 @@
 body{
     background-color: rgb(11, 16, 61);
-    
 }
 .list{
     list-style: none;
-    float: right;
     display: flex;
-    gap: 20px;
+    float: right;
+   
+    gap: 10px;
 }
 .a-menu{
     text-decoration: none;
-    color: rgb(25, 49, 156);
+    color: rgb(25, 156, 47);
     font-size: xx-large;
     font-family: sans-serif;
     margin-right: 100px; 
@@ -21,13 +21,65 @@ body{
 }
 .btn{
    border-radius: 70px; 
-   background-color: orange;
+   background-color: rgb(187, 50, 32);
 }
 
-.cratex{
+.container{
     color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-size: large;
+
+
+}
+    
+
+.food{
+    margin-left: 200px;
+    margin-top: 10%;
+    color: wheat;
+    text-align: center;
+}
+.food1{
+    margin-left: 200px;
+    color: wheat;
+    padding-top: 7%;
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.food2{
+    margin-left: 200px;
+    margin-top: 13%;
+    color: wheat;
+}
+.oranges{
+    text-align: center;
     font-size: xx-large;
+    color: wheat;
+}
+.food3{
+    text-align: center;
+    color: wheat;
+    margin-left: 200px;
+
+}
+.footer1{
+    color: wheat;font-size: larger;
+    font-family: serif;
+    margin-left: 30%;
 }
 
+.footer2{
+    color: wheat;
+    font-family: serif;
+    margin-left: 50%;
+    padding-bottom: 300px;
+}
+        

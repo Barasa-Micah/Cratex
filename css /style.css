@@ -1,10 +1,17 @@
-
+/*body{
+    width: min-content;
+}*/
 .svc{
     background-color: aqua;
     display: flex;
 }
 .svc form{
     padding-top: 9px;
+    padding-left: 40px;
+}
+
+.form{
+    padding-left: 80px;
 }
 
 .svc ul{
@@ -19,6 +26,7 @@
     padding: 8px;
     font-weight: 600;
     font-size: 18px;
+    padding: 80px;
 }
 span{
     color:white;
@@ -64,7 +72,7 @@ height:80px;
 
 
 
-.gro3{
+  .gro3{
     display:flex;
     background-color:palevioletred;
     text-align: center;
@@ -76,3 +84,47 @@ height:80px;
 .gro31{
     padding: 80px;
 }
+
+.gro4{
+    display:flex;
+    background-color:blanchedalmond;
+    text-align: center;
+}
+.gro4 img{
+width:100px;
+height:80px;
+}
+.gro41{
+    padding: 80px;
+}
+/*
+.con{
+    padding-right:200px;
+}
+.icon{
+    font-size:xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

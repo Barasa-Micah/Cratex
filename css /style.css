@@ -31,17 +31,8 @@ li{
     margin-left: 15%;
 }
 @media(max-width: 768px){
-    .leftp{
+    .images{
         display: grid;
         grid-template-columns: auto auto;
-    }
-    .leftp div {
-        margin: 20px auto;
-        margin-left: 1.0em;
-    }
-}
-@media (max-width: 480px) {
-    .sectionp h3{
-        font-size: 1.5em;
     }
 }

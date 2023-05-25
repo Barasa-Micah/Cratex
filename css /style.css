@@ -46,15 +46,13 @@ body {
     height: 165px;
 }
 
-
 .column {
     float: left;
     width: 50%;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 20px;
     padding-right: 20px;
 }
-
 
 .row {
     text-align: left;
@@ -64,11 +62,10 @@ body {
 .imag {
     width: 300px;
     margin-top: 10px;
-    
 }
 
 .footer-column {
-    flex-basis: 33.33%;
+    flex-basis: 25%;
 }
 
 ul {
@@ -95,7 +92,6 @@ button:hover {
 }
 
 .right {
-    margin-left: 350px;
     position: relative;
 }
 

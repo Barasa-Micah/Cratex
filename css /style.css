@@ -107,10 +107,10 @@ button1:hover {
     animation: background-animation 3s infinite;
 }
 
-@keyframes background-animation {
+/* @keyframes background-animation {
     0% {
         background-color: white;
-    }
+    } */
     /* 50% {
         background-color: rgb(124, 254, 224);
     }

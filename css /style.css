@@ -4,7 +4,7 @@
     text-align: right;
 }
 
-body {
+.body_1 {
     background-color: #f0ceb2;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -102,7 +102,7 @@ button:hover {
     float: none;
     margin-top: 20px;
 }
-body {
+.body_1 {
     transition: background-color 1s;
     animation: background-animation 3s infinite;
 }

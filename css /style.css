@@ -1,6 +1,4 @@
-/*body{
-    width: min-content;
-}*/
+/*
 .svc{
     background-color: aqua;
     display: flex;
@@ -104,21 +102,156 @@ height:80px;
     font-size:xx-large;
 }
 
+/*
+
+ #tab {
+    display: none;
+  }
+  
+  #tab.active {
+    display: block;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+*/
+
+
+body{
+    background-color:white;
+}
+  .svc {
+    display: flex;
+    text-align: center;
+  }
+
+  
+  
+  .svc ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .svc ul li {
+    list-style: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 80px;
+  }
+  .svd ul li a{
+    color: azure;
+  }
 
 
 
 
+  span {
+    color:red;
+  }
+  /*
+  .gro {
+    display: none;
+    text-align: center;
+  }
+  
+  .gro.tab.active {
+    display: flex;
+    animation:backwards;
+  }
+  
+  .gro img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .gro21 img {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .gro21 {
+    padding: 80px;
+  }
+  
+  .gro31 img {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .gro31 {
+    padding: 80px;
+  }
+  
+  .gro4 img {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .gro41 {
+    padding: 80px;
+  }
+  
+  .con {
+    padding-right: 200px;
+  }
+  
+  .icon {
+    font-size: xx-large;
+    padding:20px;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
 
 
-
-
-
-
-
-
-
-
-
+  .gro1{
+    padding: 80px;
+}
+.gro img{
+    width: 100px;
+    height: 100px;
+}
+.od{
+    display: flex;
+}
+ button{
+    padding: 9px;
+    width:100px;
+    height: 40px;
+    color: black;
+    background-color:yellow;
+    border-radius: 4px;
+}
+  
+.selected-items {
+    margin-top: 20px;
+  }
+  
+  .selected-items h2 {
+    margin-bottom: 10px;
+  }
+  
 
 
 

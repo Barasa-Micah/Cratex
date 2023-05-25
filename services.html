@@ -1,198 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-    <link rel="stylesheet"  href="css /style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" href="css /style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+  <div class="svc">
+    <h1>Serv<span>ices</span></h1>
 
-    <div class="svc">
-        <h1>Serv<span>ices</span></h1>
-          
+     <ul>
+      <li><a href="#" onclick="showTab('Groceries');">Groceries</a></li>
+      <li><a href="#" onclick="showTab('Bakery');">Bakery</a></li>
+      <li><a href="#" onclick="showTab('Electronics');">Electronics</a></li>
+      <li><a href="#" onclick="showTab('Fashion');">Fashion</a></li>
+     
+      <i class='bx bxs-basket icon'></i>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="gro tab active" id="Groceries">
+      <h1>Groc<span>eries</span></h1>
+      <div class="gro1">
+        <img src="images/Greenspoon-Kenya-Iceberg-Lettuce..jpg.webp">
+        <p>Farm Fresh (AAA) iceberg Lettuce Loose.</p>
+        <p>Ksh.89.00</p>
         
-        <div class="form"><form action="/search" method="GET">
-            <input type="text" name="query" placeholder="Search...">
-            <input type="submit" value="Search">
-          </form></div>
-         
-          <ul>
-            <li><a href=" #Groceries"></a> Groceries</li>
-            <li><a href="  #Bakery"></a>Bakery</li>
-            <li><a href="#Electronic"></a>Electronics </li>
-            <li><a href="#Fashion"></a>Fashion</li>
-                <i class='bx bx-basket icon'></i>
-          </ul>
-          </div>
+        <button>ORDER</button>
+      </div>
+
+      <div class="gro1">
+        <img src="images/Greenspoon-Freshly-Box.jpg.webp">
+        <p>Fresh Box:4.5kg-5.0kg of Quality Vegetabls ..</p>
+        <p>Ksh.1,300</p>
+       
+        <button>ORDER</button>
     </div>
-    
-    <div class="gro">
-        <h1>Groceries</h1>
-        <div class="gro1">
-            <img src="images/Greenspoon-Kenya-Iceberg-Lettuce..jpg.webp">
-            <p>Farm Fresh (AAA) iceberg <br>Lettuce Loose.</p>
-            <p>Ksh.89.00</p>
-            <i class='bx bx-basket icon'></i>
-
-        </div>
-
-        <div class="gro1">
-            <img src="images/Greenspoon-Freshly-Box.jpg.webp">
-            <p>Fresh Box:4.5kg-5.0kg of Quality Vegetabls ..</p>
-            <p>Ksh.1,300</p>   <i class='bx bx-basket icon'></i>
-
-            
-
-        </div>
-
-
-        <div class="gro1">
-            <img src="images/Greenspoon-Kenya-Sylvia-Basket-Organic-Oranges-1Kg.jpg">
-            <p>Sylvia Basket Organic<br>
-            Oranges-1kg </p>
-            <p>Ksh.180</p>
-            <i class='bx bx-basket icon'></i>
-            
-        </div>
-
-        <div class="gro1">
-            <img src="images/Courgette.jpg">
-            <p>Sylvia Basket Organic<br>
-            Courgette-500g </p>
-            <p>Ksh.100</p>
-            <i class='bx bx-basket icon'></i>
-           
-
-        </div>
+    <div class="gro1">
+        <img src="images/Greenspoon-Kenya-Sylvia-Basket-Organic-Oranges-1Kg.jpg">
+        <p>Sylvia Basket Organic<br>
+        Oranges-1kg </p>
+        <p>Ksh.180</p>
+        
+        <button>ORDER</button>
     </div>
-
- <div class="gro2">
-    <h1>Bakery</h1>
-    <div class="gro21">
-        <img src="images/bread.jpg">
-        <p>Tosti white Bread <br>600g</p>
-        <p>Ksh.87</p>
-        <i class='bx bx-basket icon'></i>
-
-    </div>
-
-    <div class="gro21">
-        <img src="images/burns.jpg">
-        <p>Fm plain<br> Buns<br>400g</p>
+    <div class="gro1">
+        <img src="images/Courgette.jpg">
+        <p>Sylvia Basket Organic<br>
+        Courgette-500g </p>
         <p>Ksh.100</p>
-        <i class='bx bx-basket icon'></i>
+      
+        <button>ORDER</button>
 
+    </div>
+    </div>
+<div class="gro tab" id="Bakery">
+      <h1>Bak<span>ery</span></h1>
+      <div class="gro21">
+        <img src="images/bread.jpg">
+        <p>Tosti white Bread 600g</p>
+        <p>Ksh.87</p>
+        <button>ORDER</button>
+
+      </div>
+      <div class="gro21">
+        <img src="images/burns.jpg">
+        <p>Fm plain Buns<br>400g</p>
+        <p>Ksh.100</p>
+     
+        <button>ORDER</button>
     </div>
 
     <div class="gro21">
         <img src="images/quueen cake.jpg">
         <p>Fm Coconut filled Doughnut<br>70g</p>
         <p>Ksh.100</p>
-        <i class='bx bx-basket icon'></i>
-        
+      
+        <button>ORDER</button>
     </div>
 
     <div class="gro21">
         <img src="images/dog bun.jpg">
         <p>Enns Valley Hot Dog Bun<br>300g</p>
         <p>Ksh.99</p>
-        <i class='bx bx-basket icon'></i>
-
+    
+    <button>ORDER</button>
     </div>
- </div>
+    </div>
+    <div class="gro tab" id="Electronics">
+      <h1>Elect<span>ronics</span></h1>
+      <div class="gro31">
+        <img src="images/ramton micrp.jpeg">
+        <p>Micro Wave High Quality</p>
+        <p>Ksh.5900</p>
+        
+        <button>ORDER</button>
+      </div>
 
-    <div class="gro3">
-        <h1>Electronics</h1>
-        <div class="gro31">
-            <img src="images/ramton micrp.jpeg">
-            <p>Micro Wave<br>High Quality</p>
-            <p>Ksh.5900</p>
-            <i class='bx bx-basket icon'></i>
-    
-        </div>
-    
-        <div class="gro31">
-            <img src="images/tv.jpg">
-            <p>Tv<br>Flat sreen<br>High Quality</p>
-            <p>Ksh.22900</p>
-            <i class='bx bx-basket icon'></i>
-    
-        </div>
-    
-        <div class="gro31">
-            <img src="images/waterdispenser.jpg">
-            <p>Water dispenser<br>High Quality</p>
-            <p>Ksh.7960</p>
-            <i class='bx bx-basket icon'></i>
-            
-    
-        </div>
-    
-        <div class="gro31">
-            <img src="images/kettle.jpg">
-            <p>Electric Kettle<br>High Quality</p>
-            <p>Ksh.999</p>
-            <i class='bx bx-basket icon'></i>
-    
-        </div>
+
+      <div class="gro31">
+        <img src="images/tv.jpg">
+        <p>Tv Flat sreen<br>High Quality</p>
+        <p>Ksh.22900</p>
+        
+        <button>ORDER</button>
     </div>
 
-
-        <div class="gro4">
-            <h1>Fashions</h1>
-            <div class="gro41">
-                <img src="images/shirt.jpg.webp">
-                <p>Fashion Mens Dress Casual Slim Fit Short Sleeve Polo Shirts -White Cotton</p>
-                <p>Ksh.900</p>
-                <i class='bx bx-basket icon'></i>
+    <div class="gro31">
+        <img src="images/waterdispenser.jpg">
+        <p>Water dispenser<br>High Quality</p>
+        <p>Ksh.7960</p>
+       
         
-            </div>
+        <button>ORDER</button>
+
+    </div>
+
+    <div class="gro31">
+        <img src="images/kettle.jpg">
+        <p>Electric Kettle<br>High Quality</p>
+        <p>Ksh.999</p>
         
-            <div class="gro41">
-                <img src="images/jordan.jpeg.webp">
-                <p> Air Jordan 4 Retro Men's Shoes Sneakers 40 Black</p>
-                <p>Ksh.22900</p>
-                <i class='bx bx-basket icon'></i>
+        <button>ORDER</button>
+        </div>
+    </div>
+    <div class="gro tab" id="Fashion">
+      <h1>Fash<span>ion</span></h1>
+      <div class="gro41">
+        <img src="images/shirt.jpg.webp">
+        <p>Fashion Mens Dress Casual Slim Fit Short Sleeve Polo Shirts -White Cotton</p>
+        <p>Ksh.900</p>
         
-            </div>
+        <button>ORDER</button>
+      </div>
+
+      <div class="gro41">
+        <img src="images/jordan.jpeg.webp">
+        <p> Air Jordan 4 Retro Men's Shoes Sneakers 40 Black</p>
+        <p>Ksh.22900</p>
+        <button>ORDER</button>
+    </div>
+
+    <div class="gro41">
+        <img src="images/jacket.jpg">
+        <p> Generic Men Parka Jacket Winter Coat Men Cotton Puffer Jacket Solid Plus Size Overcoat Zipper Streetwear Casual Jacket Men @ Best Price Online
+            Visit
+            </p>
+        <p>Ksh.2700</p>
         
-            <div class="gro41">
-                <img src="images/jacket.jpg">
-                <p> Generic Men Parka Jacket Winter Coat Men Cotton Puffer Jacket Solid Plus Size Overcoat Zipper Streetwear Casual Jacket Men @ Best Price Online | Jumia Kenya
-                    Visit
-                    </p>
-                <p>Ksh.2700</p>
-                <i class='bx bx-basket icon'></i>
+        <button>ORDER</button>
+
+    </div>
+
+    <div class="gro41">
+        <img src="images/trouser.jpg">
+        <p> Fashion Mens Workwear Casual Pants High Quality Cargo Pants Casual Pockets Trouser Plus Size 42 </p>
+        <p>Ksh.2400</p>
         
-            </div>
+        <button>ORDER</button>
         
-            <div class="gro41">
-                <img src="images/trouser.jpg">
-                <p> Fashion Mens Workwear Casual Pants High Quality Cargo Pants Casual Pockets Trouser Plus Size 42 </p>
-                <p>Ksh.2400</p>
-                <i class='bx bx-basket icon'></i>
-            </div>
+    </div>
+    </div>
+  </div>
+  <div id="orderDetails"></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script src="java script/script.js"></script>
 </body>
 </html>
+
+
+
+<i class='bx bx-basket icon'></i>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

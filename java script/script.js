@@ -23,7 +23,7 @@ window.addEventListener('load', function() {
     }, 2000);
 });
 window.addEventListener('load', function() {
-    // Set a timeout to remove the animation class from the body and footer after 2 seconds
+
     setTimeout(function() {
         document.body.classList.remove('animate-background');
         document.querySelector('.footer').classList.remove('animate-footer');

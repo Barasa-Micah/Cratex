@@ -46,7 +46,7 @@
     color: white;
 }
 
-.column {
+.column_ {
     float: left;
     width: 50%;
     overflow: hidden;
@@ -117,4 +117,4 @@ button1:hover {
     /* 100% {
         background-color: rgb(12, 61, 221); */
     } */
-}
+

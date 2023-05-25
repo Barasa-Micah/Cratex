@@ -1,16 +1,17 @@
-/* Add the corrected CSS code here */
+
 .nav-bar {
-   
     background-color: #2196f3;
-            padding: 10px;
-            text-align: right;
+    padding: 10px;
+    text-align: right;
 }
+
 body {
     background-color: #f9f088;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 .nav-bar ul {
     list-style-type: none;
     margin: 0;
@@ -24,7 +25,7 @@ body {
 
 .nav-bar a {
     text-decoration: none;
-    color:white; 
+    color: white;
     transition: color 0.3s;
 }
 
@@ -47,27 +48,23 @@ body {
 
 .column {
     float: left;
-    width: 50%;}
-
-    .column {
-        overflow: hidden;
-        margin-right: 20px;
-        padding-right: 20px;
-    }
-
-.row{
-    
-    text-align: left;
-margin-left: 10px;
+    width: 50%;
 }
 
+.column {
+    overflow: hidden;
+    margin-right: 20px;
+    padding-right: 20px;
+}
 
-.column3 {
-    margin-left: 470px;
+.row {
+    text-align: left;
+    margin-left: 10px;
 }
 
 .imag {
     width: 300px;
+    margin-top: 20px;
 }
 
 .footer-column {
@@ -91,8 +88,18 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    
 }
+
 button:hover {
-color:red
+    color: red;
+}
+
+.right {
+    margin-left: 350px;
+    position: relative;
+}
+
+.contact {
+    float: none;
+    margin-top: 20px;
 }

@@ -11,7 +11,8 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    color: orangered;
+    color:hwb(60 27% 3%);
+    padding-left:200px;
   }
   
   .svc ul li {

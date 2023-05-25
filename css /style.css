@@ -1,4 +1,5 @@
- .nav-bar {
+/* Add the corrected CSS code here */
+.nav-bar {
     background-color: rgb(181, 234, 169);
     padding: 10px;
     text-align: right;
@@ -16,20 +17,13 @@
 }
 
 .nav-bar a {
-    text-decoration: none; /* Remove the underline */
-    color: black; /* Set the link color */
-    transition: color 0.3s; /* Add a transition effect for smooth color change */
-
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
 }
 
 .nav-bar a:hover {
-    color: red; /* Set the highlighted link color */
-}
-
-.nav-bar {
-    background-color: rgb(181, 234, 169);
-    padding: 10px;
-    text-align: right; /* Align the navigation bar to the right */
+    color: red;
 }
 
 .footer {
@@ -43,22 +37,27 @@
     display: flex;
     justify-content: space-between;
     height: 165px;
-
 }
 
 .column {
     float: left;
-    width: 50%;
-}
+    width: 50%;}
+
+    .column {
+        overflow: hidden;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+
+
 
 .column3 {
-    float: left;
     margin-left: 470px;
 }
 
 .imag {
     width: 300px;
-   
 }
 
 .footer-column {
@@ -82,4 +81,4 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-}  *
+}

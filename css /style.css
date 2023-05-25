@@ -5,7 +5,7 @@
 }
 
 .body_1 {
-    background-color: #f0ceb2;
+    background-color: #f3f3f3;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -111,10 +111,10 @@ button1:hover {
     0% {
         background-color: white;
     }
-    50% {
+    /* 50% {
         background-color: rgb(124, 254, 224);
     }
-    100% {
-        background-color: rgb(225, 128, 128);
-    }
+    /* 100% {
+        background-color: rgb(12, 61, 221); */
+    } */
 }

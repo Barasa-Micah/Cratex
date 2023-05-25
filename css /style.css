@@ -1,10 +1,16 @@
 /* Add the corrected CSS code here */
 .nav-bar {
-    background-color: rgb(181, 234, 169);
-    padding: 10px;
-    text-align: right;
+   
+    background-color: #2196f3;
+            padding: 10px;
+            text-align: right;
 }
-
+body {
+    background-color: #f9f088;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .nav-bar ul {
     list-style-type: none;
     margin: 0;
@@ -18,7 +24,7 @@
 
 .nav-bar a {
     text-decoration: none;
-    color: black;
+    color:white; 
     transition: color 0.3s;
 }
 
@@ -27,7 +33,7 @@
 }
 
 .footer {
-    background-color: #df5858;
+    background-color: #f09b56;
     padding: 10px;
     text-align: center;
     position: fixed;
@@ -78,15 +84,15 @@ ul li {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #57f75c;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     
 }
 button:hover {
-color: purple
+color:red
 }

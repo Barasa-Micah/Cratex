@@ -1,88 +1,194 @@
-body{
-    background-color: rgb(11, 16, 61);
-}
-.list{
-    list-style: none;
+
+  .svc {
     display: flex;
+    text-align: center;
+  }
+
+  
+  
+  .svc ul {
     float: right;
-   
-    gap: 10px;
-}
-.a-menu{
-    text-decoration: none;
-    color: rgb(25, 156, 47);
-    font-size: xx-large;
-    font-family: sans-serif;
-    margin-right: 100px; 
-}
-.a-menu:hover{
-    color: darkgoldenrod                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
-    transform:scale(1.1)
-}
-.btn{
-   border-radius: 70px; 
-   background-color: rgb(187, 50, 32);
-}
-
-.container{
-    color: beige;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: large;
-
-
-}
-    
-
-.food{
-    margin-left: 200px;
-    margin-top: 10%;
-    color: wheat;
-    text-align: center;
-}
-.food1{
-    margin-left: 200px;
-    color: wheat;
-    padding-top: 7%;
-    text-align: center;
-}
-.products{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
-    gap: 1rem;
-    
-}
-.food2{
-    margin-left: 200px;
-    margin-top: 13%;
-    color: wheat;
-}
-.oranges{
+    align-self: center;
+    color:hwb(60 27% 3%);
+    padding-left:200px;
+  }
+  
+  .svc ul li {
+    list-style: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 80px;
+  }
+
+  ul li a{
+    color: blue;
+    text-decoration: none;
+  }
+
+
+
+
+  span {
+    color:red;
+  }
+  .gro {
+    display: none;
     text-align: center;
+  }
+  
+  .gro.tab.active {
+    display: flex;
+    animation:backwards;
+  }
+  
+  .gro img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .gro21 img {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .gro21 {
+    padding: 80px;
+  }
+  
+  .gro31 img {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .gro31 {
+    padding: 80px;
+  }
+  
+  .gro4 img {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .gro41 {
+    padding: 80px;
+  }
+
+  .con {
+    padding-right: 200px;
+  }
+  
+  .icon {
     font-size: xx-large;
-    color: wheat;
-}
-.food3{
-    text-align: center;
-    color: wheat;
-    margin-left: 200px;
+    padding:20px;
+  }
 
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .gro1{
+    padding: 80px;
 }
-.footer1{
-    color: wheat;font-size: larger;
-    font-family: serif;
-    margin-left: 30%;
+.gro img{
+    width: 100px;
+    height: 100px;
 }
 
-.footer2{
-    color: wheat;
-    font-family: serif;
-    margin-left: 50%;
-    padding-bottom: 300px;
+
+
+ button{
+    padding: 9px;
+    width:100px;
+    height: 40px;
+    color: black;
+    background-color:yellow;
+    border-radius: 4px;
 }
-        
-.email{
-    color: wheat;
-}
+  
+.selected-items {
+    margin-top: 20px;
+  }
+  
+  .selected-items h2 {
+    margin-bottom: 10px;
+  }
+  
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #ordered-items-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #total-cost {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .icon.clickable {
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

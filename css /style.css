@@ -1,4 +1,4 @@
-*{
+body{
     background-color: rgb(11, 16, 61);
 }
 .list{
@@ -83,3 +83,6 @@
     padding-bottom: 300px;
 }
         
+.email{
+    color: wheat;
+}

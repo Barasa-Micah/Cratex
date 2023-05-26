@@ -13,7 +13,7 @@
 window.addEventListener('load', function() {
     setTimeout(function() {
         document.body.style.backgroundColor = 'green';
-        document.body.style.backgroundImage = 'linear-gradient(to bottom, white, white)';
+        document.body.style.backgroundImage = 'linear-gradient(to bottom, blue, white)';
     }, 2000);
 });
     

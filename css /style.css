@@ -1,7 +1,7 @@
 <<<<<<< head
 /*styling contacts*/
 body {
-  background-image:url(../images/last.jpg) ;
+  background-image:url(../images/last.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  flex-direction: column; 
@@ -25,7 +25,7 @@ p {
 li{
  list-style: none;
  padding: 5px;
- color: white;
+ color: rgb(241, 241, 241);
  font-size: 30px;
 }
 

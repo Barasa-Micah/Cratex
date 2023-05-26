@@ -18,10 +18,7 @@ function addToCart(itemName, price) {
 
 function handleOrder() {
   console.log(selectedItems);
-  // You can perform further actions with the selected items here
-  // For example, you can send the selected items to a server or process them in any other way
-  // This code currently logs the selected items to the console
-  // You can replace the console.log() statement with your desired functionality
+ 
 }
 
 function updateBasketIcon() {
@@ -44,14 +41,8 @@ orderButton.addEventListener('click', function(event) {
   event.preventDefault();
   handleOrder();
 });
-
-// Initialize basket icon count
 updateBasketIcon();
 
-
-
-
-// Get the basket icon element
 const basketIcon = document.getElementById('basket-icon');
 
 // Add event listener to the basket icon
@@ -63,13 +54,10 @@ function displayBasketItems() {
   const basketItems = getBasketItems();
 
   // Display the basket items data
-  console.log(basketItems); // You can replace this with your preferred way of displaying the data
+  console.log(basketItems); 
 }
 
-// Function to get the basket items data (example implementation)
 function getBasketItems() {
-  // Replace this with your actual code to retrieve the basket items data
-  // For demonstration purposes, let's assume we have a variable called 'basketItemsData' that contains the data
   const basketItemsData = [
     { id: 1, name: 'Item 1', price: 10 },
     { id: 2, name: 'Item 2', price: 15 },
@@ -79,44 +67,34 @@ function getBasketItems() {
   return basketItemsData;
 }
 
-
-// Rest of the code...
-
-// Get the modal element and close button
 const modal = document.getElementById('modal');
 const closeButton = document.getElementsByClassName('close')[0];
-
-// Add event listener to the basket icon
 basketIcon.addEventListener('click', displayOrderedItems);
 
-// Function to display the ordered items
 function displayOrderedItems() {
-  // Get the ordered items list element
   const orderedItemsList = document.getElementById('ordered-items-list');
 
-  // Clear any existing items in the list
+
   orderedItemsList.innerHTML = '';
 
-  // Add the ordered items to the list
+  
   selectedItems.forEach((item) => {
     const listItem = document.createElement('li');
     listItem.textContent = `${item.itemName} - ${item.itemPrice}`;
     orderedItemsList.appendChild(listItem);
   });
 
-  // Display the modal
+ 
   modal.style.display = 'block';
 }
 
-// Add event listener to the close button of the modal
+// event listener to the close button of the modal
 closeButton.addEventListener('click', closeModal);
 
-// Function to close the modal
 function closeModal() {
   modal.style.display = 'none';
 }
 
-// Close the modal when the user clicks outside of it
 window.addEventListener('click', function(event) {
   if (event.target === modal) {
     closeModal();
@@ -124,31 +102,18 @@ window.addEventListener('click', function(event) {
 });
 
 
-
-  
-
-
-
-
-
-
-
 function displayOrderedItems() {
-    // Get the ordered items list element
+   
     const orderedItemsList = document.getElementById('ordered-items-list');
-    // Clear any existing items in the list
     orderedItemsList.innerHTML = '';
   
-    // Calculate the total cost
+    // Calculation of the total cost
     let totalCost = 0;
   
-    // Add the ordered items to the list
     selectedItems.forEach((item) => {
       const listItem = document.createElement('li');
       listItem.textContent = `${item.itemName} - ${item.itemPrice}`;
       orderedItemsList.appendChild(listItem);
-  
-      // Calculate the total cost by adding the price of each item
       totalCost += item.price;
     });
   
@@ -159,15 +124,6 @@ function displayOrderedItems() {
     // Display the modal
     modal.style.display = 'block';
   }
-  
-
-
-
-
-
-
-
-/*
 
 
   function updateBasketIcon() {

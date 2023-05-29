@@ -45,7 +45,6 @@ updateBasketIcon();
 
 const basketIcon = document.getElementById('basket-icon');
 
-// Adding event listener to the basket icon
 basketIcon.addEventListener('click', displayBasketItems);
 
 
@@ -100,7 +99,6 @@ window.addEventListener('click', function(event) {
   }
 });
 
-
 function displayOrderedItems() {
    
     const orderedItemsList = document.getElementById('ordered-items-list');
@@ -123,7 +121,6 @@ function displayOrderedItems() {
     // Display the modal
     modal.style.display = 'block';
   }
-
 
   function updateBasketIcon() {
     var basketIcon = document.querySelector('.icon');

@@ -45,7 +45,6 @@ updateBasketIcon();
 
 const basketIcon = document.getElementById('basket-icon');
 
-// Adding event listener to the basket icon
 basketIcon.addEventListener('click', displayBasketItems);
 
 

@@ -1,4 +1,3 @@
-
 var selectedItems = [];
 
 function showTab(tabName) {
@@ -44,9 +43,7 @@ orderButton.addEventListener('click', function(event) {
 updateBasketIcon();
 
 const basketIcon = document.getElementById('basket-icon');
-
 basketIcon.addEventListener('click', displayBasketItems);
-
 
 function displayBasketItems() {
   
@@ -72,20 +69,15 @@ basketIcon.addEventListener('click', displayOrderedItems);
 function displayOrderedItems() {
   const orderedItemsList = document.getElementById('ordered-items-list');
 
-
   orderedItemsList.innerHTML = '';
-
-  
   selectedItems.forEach((item) => {
     const listItem = document.createElement('li');
     listItem.textContent = `${item.itemName} - ${item.itemPrice}`;
     orderedItemsList.appendChild(listItem);
   });
 
- 
   modal.style.display = 'block';
 }
-
 
 closeButton.addEventListener('click', closeModal);
 
@@ -104,7 +96,6 @@ function displayOrderedItems() {
     const orderedItemsList = document.getElementById('ordered-items-list');
     orderedItemsList.innerHTML = '';
   
-    // Calculation of the total cost
     let totalCost = 0;
   
     selectedItems.forEach((item) => {
@@ -114,18 +105,15 @@ function displayOrderedItems() {
       totalCost += item.price;
     });
   
-    // Display the total cost
     const totalCostElement = document.getElementById('total-cost');
     totalCostElement.textContent = `Total Cost: Ksh.${totalCost}`;
   
-    // Display the modal
     modal.style.display = 'block';
   }
 
   function updateBasketIcon() {
     var basketIcon = document.querySelector('.icon');
     basketIcon.textContent = selectedItems.length;
-  
   
     if (selectedItems.length > 0) {
       basketIcon.classList.add('clickable');

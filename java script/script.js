@@ -45,15 +45,14 @@ updateBasketIcon();
 
 const basketIcon = document.getElementById('basket-icon');
 
-// Add event listener to the basket icon
+// Adding event listener to the basket icon
 basketIcon.addEventListener('click', displayBasketItems);
 
-// Function to display the basket items
+
 function displayBasketItems() {
-  // Get the basket items data
+  
   const basketItems = getBasketItems();
 
-  // Display the basket items data
   console.log(basketItems); 
 }
 
@@ -88,7 +87,7 @@ function displayOrderedItems() {
   modal.style.display = 'block';
 }
 
-// event listener to the close button of the modal
+
 closeButton.addEventListener('click', closeModal);
 
 function closeModal() {
@@ -130,7 +129,7 @@ function displayOrderedItems() {
     var basketIcon = document.querySelector('.icon');
     basketIcon.textContent = selectedItems.length;
   
-    // Enable the basket icon click event only if there are selected items
+  
     if (selectedItems.length > 0) {
       basketIcon.classList.add('clickable');
       basketIcon.addEventListener('click', displayOrderedItems);
@@ -140,9 +139,4 @@ function displayOrderedItems() {
     }
   }
   
-
-
-
-
-
 

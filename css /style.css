@@ -1,5 +1,4 @@
 
-/*styling contacts*/
 body {
   background-image:url(../images/last.jpg);
   background-repeat: no-repeat;
@@ -155,9 +154,6 @@ li{
     background-color:yellow;
     border-radius: 4px;
 }
-
-        
-  
 .selected-items {
     margin-top: 20px;
   }
@@ -169,7 +165,7 @@ li{
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+   /* z-index: 1;*/
     left: 0;
     top: 0;
     width: 100%;

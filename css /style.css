@@ -1,4 +1,44 @@
 
+body {
+  background-image:url(../images/last.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ flex-direction: column; 
+ justify-content: flex-start;
+ font-family: sans-serif;
+}
+
+h1 {
+ text-align: center;
+ color: #f8f0f0;
+ font-size: 45px;
+}
+
+p {
+ margin-top: 0px;
+ color: #e9e5e5;
+ font-size: 40px;
+}
+
+
+li{
+ list-style: none;
+ padding: 5px;
+ color: rgb(241, 241, 241);
+ font-size: 30px;
+}
+
+.images{
+ margin-left: 14%;
+}
+@media(max-width: 768px){
+ .images{
+     display: grid;
+     grid-template-columns: auto auto;
+ }
+}
+
+
   .svc {
     display: flex;
     text-align: center;
@@ -172,7 +212,6 @@
     cursor: pointer;
   }
   
-
 
 
 

@@ -43,9 +43,6 @@ li{
     display: flex;
     text-align: center;
   }
-
-  
-  
   .svc ul {
     float: right;
     display: flex;
@@ -141,8 +138,6 @@ li{
     height: 100px;
 }
 
-
-
  button{
     padding: 9px;
     width:100px;
@@ -162,7 +157,6 @@ li{
 .modal {
     display: none;
     position: fixed;
-   /* z-index: 1;*/
     left: 0;
     top: 0;
     width: 100%;

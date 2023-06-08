@@ -2,7 +2,7 @@
         setTimeout(function() {
             document.body.style.backgroundColor = '#f0d3a9';
         }, 2000);
-   // Wait for the page to fully load
+   
    window.addEventListener('load', function() {
    
     setTimeout(function() {
